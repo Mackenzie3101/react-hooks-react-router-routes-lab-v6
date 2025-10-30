@@ -10,3 +10,19 @@ article {
     box-sizing: border-box;
     padding: 5px;
 }
+/* src/components/NavBar.css */
+.nav-link {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 80px;
+  padding: 8px;
+  margin: 4px;
+  background: navy;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+.active {
+  background: crimson;
+}
